@@ -4,7 +4,8 @@ Video animasi 3D sinematik (mystery thriller) untuk **KepoMisteri** — POV **Na
 
 | | |
 |---|---|
-| File utama | `final_video.mp4` (1920×1080, 16:9, 30 fps, H.264 + AAC, durasi **3:15**) |
+| File utama | `final_video.mp4` (1920×1080, 16:9, 30 fps, H.264 3,6 Mbps 2-pass + AAC, durasi **3:15**, ±93 MB) |
+| Versi kualitas tinggi | `output/final_video_HQ.mp4` (CRF 17, ±650 MB — tidak di-commit karena batas 100 MB GitHub) |
 | Subtitle | `subtitle.srt` (Bahasa Indonesia) — juga sudah *burn-in* di video |
 | Naskah VO | `vo/VOICE_SCRIPT_ElevenLabs.txt` (36 baris, ±1.150 karakter) |
 | Konfigurasi | `project.config.json` |
@@ -39,10 +40,11 @@ sudah dirender berisi musik + SFX + subtitle **tanpa** suara. Untuk menambahkan 
 ```bash
 cd pasir-ep01
 npm install                    # three@0.169
-bash tools/render_all.sh 3     # 3 worker render paralel → final_video.mp4
+bash tools/render_all.sh 2     # 2 worker render paralel → final_video.mp4
 ```
 Perlu Chromium + Playwright (render WebGL headless, CPU/SwiftShader), Python 3 + numpy, ffmpeg.
-Render penuh ±5.850 frame memakan ~1–2 jam di CPU 4 core.
+Render penuh 5.850 frame memakan ±2,4 jam di CPU 4 core (tanpa GPU). Gambar dirender internal di
+1280×720 (MSAA 2x) lalu di-upscale lanczos ke 1920×1080 — kompromi agar render CPU selesai dalam waktu wajar.
 
 ## Struktur
 

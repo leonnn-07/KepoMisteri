@@ -84,6 +84,8 @@ async function init() {
     if (r.titleCard) { const c = document.createElement('canvas'); c.width = R.domElement.width; c.height = R.domElement.height; c.getContext('2d').drawImage(engine.ov, 0, 0, c.width, c.height); return c.toDataURL('image/jpeg', q); }
     engine.setGrade(r.set.grade || {});
     cam.fov = r.cam.fov || 36; cam.near = r.cam.near || 0.05; cam.far = r.cam.far || 1200; cam.aspect = 16 / 9; cam.updateProjectionMatrix();
+    // safety: never let the camera end up inside Nando's (big) head
+    if (nando.root.visible && nando.root.parent === r.scene) { const hc = nando.head.getWorldPosition(new THREE.Vector3()); const d = r.cam.p.distanceTo(hc), minD = nando.R * 1.06 + 0.06; if (d < minD) r.cam.p = hc.clone().add(r.cam.p.clone().sub(hc).normalize().multiplyScalar(minD)); }
     cam.position.copy(r.cam.p); cam.up.set(0, 1, 0); cam.lookAt(r.cam.l); if (r.cam.roll) cam.rotateZ(r.cam.roll);
     // gentle fade-in after cut-to-black moments
     let fade = r.fade ?? 1; if (sh.id === 's11') fade *= Math.min(1, lt / 0.6);

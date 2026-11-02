@@ -5,3 +5,6 @@ pasir-ep01/output/logs/
 pasir-ep01/output/audio/*.wav
 pasir-ep01/output/video_nosub.mp4
 pasir-ep01/output/render_all.log
+pasir-ep01/output/final_video_HQ.mp4
+pasir-ep01/output/x264*
+pasir-ep01/output/*.mp4

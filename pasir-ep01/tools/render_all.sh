@@ -20,8 +20,12 @@ wait $APID
 : > output/parts/list.txt; for i in $(seq 0 $((W-1))); do echo "file 'p$i.mp4'" >> output/parts/list.txt; done
 ffmpeg -y -v error -f concat -safe 0 -i output/parts/list.txt -c copy output/video_nosub.mp4
 node tools/make_subs.mjs; node tools/make_voice_script.mjs
+# high-quality master
 ffmpeg -y -v error -i output/video_nosub.mp4 -i output/audio/mix_novo.wav \
   -vf "ass=output/subtitle.ass" -af "loudnorm=I=-18:TP=-1.5:LRA=16" \
-  -c:v libx264 -crf 17 -preset medium -pix_fmt yuv420p -c:a aac -b:a 256k -ar 48000 -movflags +faststart -shortest output/final_video.mp4
-cp output/final_video.mp4 final_video.mp4
+  -c:v libx264 -crf 17 -preset medium -pix_fmt yuv420p -c:a aac -b:a 256k -ar 48000 -movflags +faststart -shortest output/final_video_HQ.mp4
+# shareable version (<100 MB): 2-pass 3.6 Mbps
+ffmpeg -y -v error -i output/video_nosub.mp4 -vf "ass=output/subtitle.ass" -c:v libx264 -preset slow -b:v 3600k -pass 1 -passlogfile output/x264 -an -f null -
+ffmpeg -y -v error -i output/video_nosub.mp4 -i output/audio/mix_novo.wav -vf "ass=output/subtitle.ass" -af "loudnorm=I=-18:TP=-1.5:LRA=16" \
+  -c:v libx264 -preset slow -b:v 3600k -pass 2 -passlogfile output/x264 -pix_fmt yuv420p -c:a aac -b:a 192k -ar 48000 -movflags +faststart -shortest final_video.mp4
 echo "DONE: final_video.mp4"
