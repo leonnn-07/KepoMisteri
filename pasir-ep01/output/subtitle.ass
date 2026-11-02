@@ -1,0 +1,53 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialog,Inter SemiBold,44,&H00FFFFFF,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,0.3,0,1,2.2,1,2,160,160,34,1
+Style: Narasi,Inter SemiBold,44,&H00D9ECF5,&H000000FF,&H00000000,&H64000000,0,1,0,0,100,100,0.3,0,1,2.2,1,2,160,160,34,1
+Style: Phone,Inter SemiBold,44,&H00B8E0FF,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,0.3,0,1,2.2,1,2,160,160,34,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:17.40,0:00:18.75,Dialog,NANDO,0,0,0,,{\fad(120,120)}Hah? Rumah?
+Dialogue: 0,0:00:19.00,0:00:22.11,Narasi,NANDO,0,0,0,,{\fad(120,120)}Awalnya gue pikir itu cuma kesalahan sistem.
+Dialogue: 0,0:00:22.15,0:00:27.20,Narasi,NANDO,0,0,0,,{\fad(120,120)}Tapi gue nggak tahu… kalau hari itu bakal jadi hari yang paling gue sesali.
+Dialogue: 0,0:00:35.10,0:00:36.65,Dialog,NANDO,0,0,0,,{\fad(120,120)}Angkat, Pa…
+Dialogue: 0,0:00:37.10,0:00:40.05,Narasi,NANDO,0,0,0,,{\fad(120,120)}Papa bukan orang yang suka mengabaikan telepon.
+Dialogue: 0,0:00:40.09,0:00:42.95,Narasi,NANDO,0,0,0,,{\fad(120,120)}Apalagi kalau gue menelepon berkali-kali.
+Dialogue: 0,0:00:43.50,0:00:47.16,Dialog,NANDO,0,0,0,,{\fad(120,120)}Pak, bisa tolong cek rumah saya? Alarmnya tiba-tiba aktif.
+Dialogue: 0,0:00:47.20,0:00:49.16,Phone,SATPAM,0,0,0,,{\fad(120,120)}[Telepon] Baik, Pak. Saya coba periksa.
+Dialogue: 0,0:00:49.20,0:00:51.25,Dialog,NANDO,0,0,0,,{\fad(120,120)}Tolong kabari saya secepatnya.
+Dialogue: 0,0:01:02.35,0:01:04.11,Dialog,NANDO,0,0,0,,{\fad(120,120)}Halo? Gimana rumah saya?
+Dialogue: 0,0:01:04.15,0:01:07.66,Phone,SATPAM,0,0,0,,{\fad(120,120)}[Telepon] Maaf, Pak. Saya belum berhasil menghubungi orang di rumah.
+Dialogue: 0,0:01:07.70,0:01:09.25,Dialog,NANDO,0,0,0,,{\fad(120,120)}Terus sekarang gimana?
+Dialogue: 0,0:01:09.60,0:01:12.56,Phone,SATPAM,0,0,0,,{\fad(120,120)}[Telepon] Saya sarankan Bapak segera pulang dan memeriksanya.
+Dialogue: 0,0:01:12.60,0:01:14.66,Dialog,NANDO,0,0,0,,{\fad(120,120)}Iya. Saya sudah menuju ke sana.
+Dialogue: 0,0:01:14.70,0:01:16.76,Narasi,NANDO,0,0,0,,{\fad(120,120)}Gue mulai berpikir macam-macam.
+Dialogue: 0,0:01:16.80,0:01:19.46,Narasi,NANDO,0,0,0,,{\fad(120,120)}Tapi satu hal yang terus ada di kepala gue…
+Dialogue: 0,0:01:19.50,0:01:23.15,Narasi,NANDO,0,0,0,,{\fad(120,120)}Papa ada di rumah. Setidaknya, seharusnya begitu.
+Dialogue: 0,0:01:31.00,0:01:32.05,Dialog,NANDO,0,0,0,,{\fad(120,120)}Papa?
+Dialogue: 0,0:01:39.20,0:01:40.45,Dialog,NANDO,0,0,0,,{\fad(120,120)}Papa!?
+Dialogue: 0,0:01:44.10,0:01:46.75,Narasi,NANDO,0,0,0,,{\fad(120,120)}Gue udah periksa hampir seluruh rumah.
+Dialogue: 0,0:01:47.10,0:01:48.95,Narasi,NANDO,0,0,0,,{\fad(120,120)}Tapi Papa nggak ada.
+Dialogue: 0,0:01:55.70,0:01:57.75,Dialog,NANDO,0,0,0,,{\fad(120,120)}Ini… punya Papa.
+Dialogue: 0,0:02:04.90,0:02:06.05,Dialog,NANDO,0,0,0,,{\fad(120,120)}Pasir?
+Dialogue: 0,0:02:06.70,0:02:08.85,Dialog,NANDO,0,0,0,,{\fad(120,120)}Siapa yang masuk ke rumah ini?
+Dialogue: 0,0:02:09.10,0:02:10.51,Narasi,NANDO,0,0,0,,{\fad(120,120)}Gue nggak ngerti.
+Dialogue: 0,0:02:10.55,0:02:12.41,Narasi,NANDO,0,0,0,,{\fad(120,120)}Kenapa rumah gue berantakan?
+Dialogue: 0,0:02:12.45,0:02:14.20,Narasi,NANDO,0,0,0,,{\fad(120,120)}Kenapa Papa nggak ada?
+Dialogue: 0,0:02:14.40,0:02:16.25,Narasi,NANDO,0,0,0,,{\fad(120,120)}Dan yang paling aneh…
+Dialogue: 0,0:02:16.40,0:02:18.65,Narasi,NANDO,0,0,0,,{\fad(120,120)}Kenapa ada pasir sebanyak ini?
+Dialogue: 0,0:02:28.60,0:02:30.25,Dialog,NANDO,0,0,0,,{\fad(120,120)}Siapa yang ngirim ini?!
+Dialogue: 0,0:02:32.05,0:02:34.70,Dialog,NANDO,0,0,0,,{\fad(120,120)}HEI! LO SIAPA?! PAPA GUE DI MANA?!
+Dialogue: 0,0:02:36.40,0:02:39.65,Phone,MISTERIUS,0,0,0,,{\fad(120,120)}[Suara misterius] Sepertinya kamu sudah menemukan petunjuknya.
+Dialogue: 0,0:02:39.70,0:02:41.05,Dialog,NANDO,0,0,0,,{\fad(120,120)}PETUNJUK APA?!
+Dialogue: 0,0:02:41.15,0:02:43.00,Phone,MISTERIUS,0,0,0,,{\fad(120,120)}[Suara misterius] Perhatikan pasirnya.
+Dialogue: 0,0:02:58.20,0:03:00.26,Narasi,NANDO,0,0,0,,{\fad(120,120)}Sejak saat itu, gue tahu…
+Dialogue: 0,0:03:00.30,0:03:02.45,Narasi,NANDO,0,0,0,,{\fad(120,120)}Ini bukan sekadar pencurian.
+Dialogue: 0,0:03:02.60,0:03:03.97,Dialog,NANDO,0,0,0,,{\fad(120,120)}Gue bakal temuin Papa.
+Dialogue: 0,0:03:04.01,0:03:07.15,Dialog,NANDO,0,0,0,,{\fad(120,120)}Siapa pun yang melakukan ini, bakal gue cari.

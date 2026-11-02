@@ -1,0 +1,1943 @@
+{
+ "total": 195,
+ "shots": [
+  {
+   "id": "s01",
+   "sc": 1,
+   "dur": 4.6,
+   "sfx": [
+    [
+     "logo_hit",
+     0.4
+    ]
+   ],
+   "t0": 0,
+   "t1": 4.6
+  },
+  {
+   "id": "s02",
+   "sc": 1,
+   "dur": 3,
+   "t0": 4.6,
+   "t1": 7.6
+  },
+  {
+   "id": "s03",
+   "sc": 1,
+   "dur": 2.9,
+   "sfx": [
+    [
+     "golf_swing",
+     1.45
+    ],
+    [
+     "golf_hit",
+     1.75
+    ]
+   ],
+   "t0": 7.6,
+   "t1": 10.5
+  },
+  {
+   "id": "s04",
+   "sc": 1,
+   "dur": 2.4,
+   "sfx": [
+    [
+     "ball_whoosh",
+     0
+    ]
+   ],
+   "t0": 10.5,
+   "t1": 12.9
+  },
+  {
+   "id": "s05",
+   "sc": 1,
+   "dur": 1.5,
+   "t0": 12.9,
+   "t1": 14.4
+  },
+  {
+   "id": "s06",
+   "sc": 1,
+   "dur": 2,
+   "sfx": [
+    [
+     "notif",
+     0.3
+    ],
+    [
+     "vibrate",
+     0.3
+    ]
+   ],
+   "t0": 14.4,
+   "t1": 16.4
+  },
+  {
+   "id": "s07",
+   "sc": 1,
+   "dur": 2.3,
+   "vo": [
+    [
+     "L01",
+     1
+    ]
+   ],
+   "sfx": [
+    [
+     "cloth",
+     0.3
+    ],
+    [
+     "pickup",
+     0.75
+    ]
+   ],
+   "t0": 16.4,
+   "t1": 18.7
+  },
+  {
+   "id": "s08",
+   "sc": 1,
+   "dur": 2,
+   "vo": [
+    [
+     "L02",
+     0.3
+    ]
+   ],
+   "sfx": [
+    [
+     "alarm_alert",
+     0.15
+    ],
+    [
+     "impact_low",
+     0.15
+    ]
+   ],
+   "t0": 18.7,
+   "t1": 20.7
+  },
+  {
+   "id": "s09",
+   "sc": 1,
+   "dur": 4,
+   "vo": [
+    [
+     "L03",
+     1.45
+    ]
+   ],
+   "sfx": [
+    [
+     "riser",
+     0
+    ]
+   ],
+   "t0": 20.7,
+   "t1": 24.7
+  },
+  {
+   "id": "s10",
+   "sc": 1,
+   "dur": 2.2,
+   "sfx": [
+    [
+     "impact_boom",
+     0
+    ]
+   ],
+   "t0": 24.7,
+   "t1": 26.9
+  },
+  {
+   "id": "s11",
+   "sc": 2,
+   "dur": 2.4,
+   "sfx": [
+    [
+     "tap",
+     0.2
+    ],
+    [
+     "ringback",
+     0.5
+    ]
+   ],
+   "t0": 26.9,
+   "t1": 29.3
+  },
+  {
+   "id": "s12",
+   "sc": 2,
+   "dur": 3.2,
+   "sfx": [
+    [
+     "call_end",
+     2.9
+    ]
+   ],
+   "t0": 29.3,
+   "t1": 32.5
+  },
+  {
+   "id": "s13",
+   "sc": 2,
+   "dur": 1.7,
+   "sfx": [
+    [
+     "tap",
+     0.2
+    ],
+    [
+     "ringback",
+     0.4
+    ]
+   ],
+   "t0": 32.5,
+   "t1": 34.2
+  },
+  {
+   "id": "s14",
+   "sc": 2,
+   "dur": 2.6,
+   "vo": [
+    [
+     "L04",
+     0.9
+    ]
+   ],
+   "t0": 34.2,
+   "t1": 36.8
+  },
+  {
+   "id": "s15",
+   "sc": 2,
+   "dur": 6.2,
+   "vo": [
+    [
+     "L05",
+     0.3
+    ]
+   ],
+   "sfx": [
+    [
+     "call_end",
+     0.2
+    ]
+   ],
+   "t0": 36.8,
+   "t1": 43
+  },
+  {
+   "id": "s16",
+   "sc": 2,
+   "dur": 6,
+   "vo": [
+    [
+     "L06",
+     0.5
+    ],
+    [
+     "L07",
+     4.2
+    ]
+   ],
+   "sfx": [
+    [
+     "tap",
+     0.1
+    ],
+    [
+     "ringback_short",
+     0.2
+    ]
+   ],
+   "t0": 43,
+   "t1": 49
+  },
+  {
+   "id": "s17",
+   "sc": 2,
+   "dur": 2.9,
+   "vo": [
+    [
+     "L08",
+     0.2
+    ]
+   ],
+   "sfx": [
+    [
+     "call_end",
+     2
+    ],
+    [
+     "keys",
+     2.2
+    ],
+    [
+     "car_chirp",
+     2.6
+    ]
+   ],
+   "t0": 49,
+   "t1": 51.9
+  },
+  {
+   "id": "s18",
+   "sc": 3,
+   "dur": 3.2,
+   "sfx": [
+    [
+     "car_pass",
+     0.6
+    ]
+   ],
+   "t0": 51.9,
+   "t1": 55.1
+  },
+  {
+   "id": "s19",
+   "sc": 3,
+   "dur": 2.5,
+   "sfx": [
+    [
+     "ringback",
+     0.3
+    ]
+   ],
+   "t0": 55.1,
+   "t1": 57.6
+  },
+  {
+   "id": "s20",
+   "sc": 3,
+   "dur": 2.3,
+   "t0": 57.6,
+   "t1": 59.9
+  },
+  {
+   "id": "s21",
+   "sc": 3,
+   "dur": 2.3,
+   "sfx": [
+    [
+     "ringtone",
+     0.15
+    ],
+    [
+     "tap",
+     2.05
+    ]
+   ],
+   "t0": 59.9,
+   "t1": 62.2
+  },
+  {
+   "id": "s22",
+   "sc": 3,
+   "dur": 7.4,
+   "vo": [
+    [
+     "L09",
+     0.15
+    ],
+    [
+     "L10",
+     1.95
+    ],
+    [
+     "L11",
+     5.5
+    ]
+   ],
+   "t0": 62.2,
+   "t1": 69.6
+  },
+  {
+   "id": "s23",
+   "sc": 3,
+   "dur": 5,
+   "vo": [
+    [
+     "L12",
+     0
+    ],
+    [
+     "L13",
+     3
+    ]
+   ],
+   "sfx": [
+    [
+     "call_end",
+     4.85
+    ]
+   ],
+   "t0": 69.6,
+   "t1": 74.6
+  },
+  {
+   "id": "s24",
+   "sc": 3,
+   "dur": 4.4,
+   "vo": [
+    [
+     "L14",
+     0.1
+    ],
+    [
+     "L15",
+     2.2
+    ]
+   ],
+   "t0": 74.6,
+   "t1": 79
+  },
+  {
+   "id": "s25",
+   "sc": 3,
+   "dur": 3.9,
+   "vo": [
+    [
+     "L16",
+     0.5
+    ]
+   ],
+   "t0": 79,
+   "t1": 82.9
+  },
+  {
+   "id": "s26",
+   "sc": 4,
+   "dur": 3.9,
+   "sfx": [
+    [
+     "car_brake",
+     0.7
+    ],
+    [
+     "engine_off",
+     1.8
+    ],
+    [
+     "car_door_open",
+     2.2
+    ],
+    [
+     "car_door_close",
+     3.4
+    ]
+   ],
+   "t0": 82.9,
+   "t1": 86.8
+  },
+  {
+   "id": "s27",
+   "sc": 4,
+   "dur": 3,
+   "t0": 86.8,
+   "t1": 89.8
+  },
+  {
+   "id": "s28",
+   "sc": 4,
+   "dur": 2.4,
+   "vo": [
+    [
+     "L17",
+     1.2
+    ]
+   ],
+   "t0": 89.8,
+   "t1": 92.2
+  },
+  {
+   "id": "s29",
+   "sc": 4,
+   "dur": 3,
+   "sfx": [
+    [
+     "door_creak",
+     0.25
+    ]
+   ],
+   "t0": 92.2,
+   "t1": 95.2
+  },
+  {
+   "id": "s30",
+   "sc": 4,
+   "dur": 3.6,
+   "sfx": [
+    [
+     "impact_low",
+     1
+    ]
+   ],
+   "t0": 95.2,
+   "t1": 98.8
+  },
+  {
+   "id": "s31",
+   "sc": 4,
+   "dur": 2.6,
+   "vo": [
+    [
+     "L18",
+     0.4
+    ]
+   ],
+   "t0": 98.8,
+   "t1": 101.4
+  },
+  {
+   "id": "s32",
+   "sc": 4,
+   "dur": 2.5,
+   "sfx": [
+    [
+     "door_open_soft",
+     0.3
+    ]
+   ],
+   "t0": 101.4,
+   "t1": 103.9
+  },
+  {
+   "id": "s33",
+   "sc": 4,
+   "dur": 2.8,
+   "vo": [
+    [
+     "L19",
+     0.2
+    ]
+   ],
+   "t0": 103.9,
+   "t1": 106.7
+  },
+  {
+   "id": "s34",
+   "sc": 4,
+   "dur": 2.6,
+   "vo": [
+    [
+     "L20",
+     0.4
+    ]
+   ],
+   "t0": 106.7,
+   "t1": 109.3
+  },
+  {
+   "id": "s35",
+   "sc": 5,
+   "dur": 3,
+   "sfx": [
+    [
+     "glint",
+     2
+    ]
+   ],
+   "t0": 109.3,
+   "t1": 112.3
+  },
+  {
+   "id": "s36",
+   "sc": 5,
+   "dur": 2.8,
+   "sfx": [
+    [
+     "cloth",
+     0.3
+    ],
+    [
+     "ring_pick",
+     1.9
+    ]
+   ],
+   "t0": 112.3,
+   "t1": 115.1
+  },
+  {
+   "id": "s37",
+   "sc": 5,
+   "dur": 3.2,
+   "vo": [
+    [
+     "L21",
+     0.6
+    ]
+   ],
+   "sfx": [
+    [
+     "sting",
+     0
+    ]
+   ],
+   "t0": 115.1,
+   "t1": 118.3
+  },
+  {
+   "id": "s38",
+   "sc": 5,
+   "dur": 2.5,
+   "t0": 118.3,
+   "t1": 120.8
+  },
+  {
+   "id": "s39",
+   "sc": 5,
+   "dur": 2.5,
+   "sfx": [
+    [
+     "impact_low",
+     0.3
+    ]
+   ],
+   "t0": 120.8,
+   "t1": 123.3
+  },
+  {
+   "id": "s40",
+   "sc": 5,
+   "dur": 2.9,
+   "vo": [
+    [
+     "L22",
+     1.6
+    ]
+   ],
+   "sfx": [
+    [
+     "sand_pour",
+     0.2
+    ]
+   ],
+   "t0": 123.3,
+   "t1": 126.2
+  },
+  {
+   "id": "s41",
+   "sc": 5,
+   "dur": 2.6,
+   "vo": [
+    [
+     "L23",
+     0.5
+    ]
+   ],
+   "t0": 126.2,
+   "t1": 128.8
+  },
+  {
+   "id": "s42",
+   "sc": 5,
+   "dur": 5.3,
+   "vo": [
+    [
+     "L24",
+     0.3
+    ],
+    [
+     "L25",
+     1.75
+    ],
+    [
+     "L26",
+     3.65
+    ]
+   ],
+   "t0": 128.8,
+   "t1": 134.1
+  },
+  {
+   "id": "s43",
+   "sc": 5,
+   "dur": 4.6,
+   "vo": [
+    [
+     "L27",
+     0.3
+    ],
+    [
+     "L28",
+     2.3
+    ]
+   ],
+   "sfx": [
+    [
+     "riser",
+     2
+    ]
+   ],
+   "t0": 134.1,
+   "t1": 138.7
+  },
+  {
+   "id": "s44",
+   "sc": 6,
+   "dur": 2.5,
+   "sfx": [
+    [
+     "vibrate",
+     0.25
+    ],
+    [
+     "msg",
+     0.3
+    ]
+   ],
+   "t0": 138.7,
+   "t1": 141.2
+  },
+  {
+   "id": "s45",
+   "sc": 6,
+   "dur": 1.9,
+   "sfx": [
+    [
+     "impact_low",
+     0.2
+    ]
+   ],
+   "t0": 141.2,
+   "t1": 143.1
+  },
+  {
+   "id": "s46",
+   "sc": 6,
+   "dur": 2.7,
+   "sfx": [
+    [
+     "tap",
+     0.15
+    ],
+    [
+     "sit_tone",
+     0.55
+    ]
+   ],
+   "t0": 143.1,
+   "t1": 145.8
+  },
+  {
+   "id": "s47",
+   "sc": 6,
+   "dur": 2.6,
+   "sfx": [
+    [
+     "vibrate",
+     0.2
+    ],
+    [
+     "msg",
+     0.25
+    ]
+   ],
+   "t0": 145.8,
+   "t1": 148.4
+  },
+  {
+   "id": "s48",
+   "sc": 6,
+   "dur": 1.9,
+   "vo": [
+    [
+     "L29",
+     0.2
+    ]
+   ],
+   "t0": 148.4,
+   "t1": 150.3
+  },
+  {
+   "id": "s49",
+   "sc": 6,
+   "dur": 1.5,
+   "sfx": [
+    [
+     "ringtone",
+     0.05
+    ],
+    [
+     "vibrate",
+     0.05
+    ]
+   ],
+   "t0": 150.3,
+   "t1": 151.8
+  },
+  {
+   "id": "s50",
+   "sc": 6,
+   "dur": 4.4,
+   "vo": [
+    [
+     "L30",
+     0.25
+    ]
+   ],
+   "sfx": [
+    [
+     "tap",
+     0.05
+    ]
+   ],
+   "t0": 151.8,
+   "t1": 156.2
+  },
+  {
+   "id": "s51",
+   "sc": 6,
+   "dur": 3.4,
+   "vo": [
+    [
+     "L31",
+     0.2
+    ]
+   ],
+   "sfx": [
+    [
+     "sand_pour",
+     0
+    ],
+    [
+     "drone_dark",
+     0
+    ]
+   ],
+   "t0": 156.2,
+   "t1": 159.6
+  },
+  {
+   "id": "s52",
+   "sc": 6,
+   "dur": 3.6,
+   "vo": [
+    [
+     "L32",
+     0.1
+    ],
+    [
+     "L33",
+     1.55
+    ]
+   ],
+   "sfx": [
+    [
+     "call_drop",
+     3.3
+    ]
+   ],
+   "t0": 159.6,
+   "t1": 163.2
+  },
+  {
+   "id": "s53",
+   "sc": 7,
+   "dur": 2.9,
+   "t0": 163.2,
+   "t1": 166.1
+  },
+  {
+   "id": "s54",
+   "sc": 7,
+   "dur": 3,
+   "sfx": [
+    [
+     "impact_boom",
+     0.6
+    ],
+    [
+     "sting",
+     0.6
+    ]
+   ],
+   "t0": 166.1,
+   "t1": 169.1
+  },
+  {
+   "id": "s55",
+   "sc": 7,
+   "dur": 2.6,
+   "sfx": [
+    [
+     "shutter",
+     1.6
+    ]
+   ],
+   "t0": 169.1,
+   "t1": 171.7
+  },
+  {
+   "id": "s56",
+   "sc": 7,
+   "dur": 2.2,
+   "sfx": [
+    [
+     "msg",
+     0.4
+    ],
+    [
+     "vibrate",
+     0.4
+    ]
+   ],
+   "t0": 171.7,
+   "t1": 173.9
+  },
+  {
+   "id": "s57",
+   "sc": 7,
+   "dur": 4,
+   "sfx": [
+    [
+     "riser",
+     0.4
+    ],
+    [
+     "impact_boom",
+     3
+    ]
+   ],
+   "t0": 173.9,
+   "t1": 177.9
+  },
+  {
+   "id": "s58",
+   "sc": 7,
+   "dur": 4.4,
+   "vo": [
+    [
+     "L34",
+     0.3
+    ],
+    [
+     "L35",
+     2.4
+    ]
+   ],
+   "t0": 177.9,
+   "t1": 182.3
+  },
+  {
+   "id": "s59",
+   "sc": 7,
+   "dur": 5,
+   "vo": [
+    [
+     "L36",
+     0.3
+    ]
+   ],
+   "t0": 182.3,
+   "t1": 187.3
+  },
+  {
+   "id": "s60",
+   "sc": 7,
+   "dur": 1.8,
+   "sfx": [
+    [
+     "house_alarm",
+     0.2
+    ]
+   ],
+   "t0": 187.3,
+   "t1": 189.1
+  },
+  {
+   "id": "s61",
+   "sc": 7,
+   "dur": 5.9,
+   "sfx": [
+    [
+     "title_hit",
+     0.3
+    ]
+   ],
+   "t0": 189.1,
+   "t1": 195
+  }
+ ],
+ "cues": [
+  {
+   "id": "L01",
+   "who": "NANDO",
+   "kind": "dialog",
+   "text": "Hah? Rumah?",
+   "est": 1.1,
+   "start": 17.4,
+   "end": 18.5,
+   "shot": "s07"
+  },
+  {
+   "id": "L02",
+   "who": "NANDO",
+   "kind": "narasi",
+   "text": "Awalnya gue pikir itu cuma kesalahan sistem.",
+   "est": 3,
+   "start": 19,
+   "end": 22,
+   "shot": "s08"
+  },
+  {
+   "id": "L03",
+   "who": "NANDO",
+   "kind": "narasi",
+   "text": "Tapi gue nggak tahu… kalau hari itu bakal jadi hari yang paling gue sesali.",
+   "est": 4.8,
+   "start": 22.15,
+   "end": 26.95,
+   "shot": "s09"
+  },
+  {
+   "id": "L04",
+   "who": "NANDO",
+   "kind": "dialog",
+   "text": "Angkat, Pa…",
+   "est": 1.3,
+   "start": 35.1,
+   "end": 36.4,
+   "shot": "s14"
+  },
+  {
+   "id": "L05",
+   "who": "NANDO",
+   "kind": "narasi",
+   "text": "Papa bukan orang yang suka mengabaikan telepon. Apalagi kalau gue menelepon berkali-kali.",
+   "est": 5.6,
+   "start": 37.1,
+   "end": 42.7,
+   "shot": "s15"
+  },
+  {
+   "id": "L06",
+   "who": "NANDO",
+   "kind": "dialog",
+   "text": "Pak, bisa tolong cek rumah saya? Alarmnya tiba-tiba aktif.",
+   "est": 3.6,
+   "start": 43.5,
+   "end": 47.1,
+   "shot": "s16"
+  },
+  {
+   "id": "L07",
+   "who": "SATPAM",
+   "kind": "phone",
+   "text": "Baik, Pak. Saya coba periksa.",
+   "est": 1.9,
+   "start": 47.2,
+   "end": 49.1,
+   "shot": "s16"
+  },
+  {
+   "id": "L08",
+   "who": "NANDO",
+   "kind": "dialog",
+   "text": "Tolong kabari saya secepatnya.",
+   "est": 1.8,
+   "start": 49.2,
+   "end": 51,
+   "shot": "s17"
+  },
+  {
+   "id": "L09",
+   "who": "NANDO",
+   "kind": "dialog",
+   "text": "Halo? Gimana rumah saya?",
+   "est": 1.6,
+   "start": 62.35,
+   "end": 63.95,
+   "shot": "s22"
+  },
+  {
+   "id": "L10",
+   "who": "SATPAM",
+   "kind": "phone",
+   "text": "Maaf, Pak. Saya belum berhasil menghubungi orang di rumah.",
+   "est": 3.4,
+   "start": 64.15,
+   "end": 67.55,
+   "shot": "s22"
+  },
+  {
+   "id": "L11",
+   "who": "NANDO",
+   "kind": "dialog",
+   "text": "Terus sekarang gimana?",
+   "est": 1.3,
+   "start": 67.7,
+   "end": 69,
+   "shot": "s22"
+  },
+  {
+   "id": "L12",
+   "who": "SATPAM",
+   "kind": "phone",
+   "text": "Saya sarankan Bapak segera pulang dan memeriksanya.",
+   "est": 2.9,
+   "start": 69.6,
+   "end": 72.5,
+   "shot": "s23"
+  },
+  {
+   "id": "L13",
+   "who": "NANDO",
+   "kind": "dialog",
+   "text": "Iya. Saya sudah menuju ke sana.",
+   "est": 1.9,
+   "start": 72.6,
+   "end": 74.5,
+   "shot": "s23"
+  },
+  {
+   "id": "L14",
+   "who": "NANDO",
+   "kind": "narasi",
+   "text": "Gue mulai berpikir macam-macam.",
+   "est": 2,
+   "start": 74.7,
+   "end": 76.7,
+   "shot": "s24"
+  },
+  {
+   "id": "L15",
+   "who": "NANDO",
+   "kind": "narasi",
+   "text": "Tapi satu hal yang terus ada di kepala gue…",
+   "est": 2.6,
+   "start": 76.8,
+   "end": 79.4,
+   "shot": "s24"
+  },
+  {
+   "id": "L16",
+   "who": "NANDO",
+   "kind": "narasi",
+   "text": "Papa ada di rumah. Setidaknya, seharusnya begitu.",
+   "est": 3.4,
+   "start": 79.5,
+   "end": 82.9,
+   "shot": "s25"
+  },
+  {
+   "id": "L17",
+   "who": "NANDO",
+   "kind": "dialog",
+   "text": "Papa?",
+   "est": 0.8,
+   "start": 91,
+   "end": 91.8,
+   "shot": "s28"
+  },
+  {
+   "id": "L18",
+   "who": "NANDO",
+   "kind": "dialog",
+   "text": "Papa!?",
+   "est": 1,
+   "start": 99.2,
+   "end": 100.2,
+   "shot": "s31"
+  },
+  {
+   "id": "L19",
+   "who": "NANDO",
+   "kind": "narasi",
+   "text": "Gue udah periksa hampir seluruh rumah.",
+   "est": 2.4,
+   "start": 104.1,
+   "end": 106.5,
+   "shot": "s33"
+  },
+  {
+   "id": "L20",
+   "who": "NANDO",
+   "kind": "narasi",
+   "text": "Tapi Papa nggak ada.",
+   "est": 1.6,
+   "start": 107.1,
+   "end": 108.7,
+   "shot": "s34"
+  },
+  {
+   "id": "L21",
+   "who": "NANDO",
+   "kind": "dialog",
+   "text": "Ini… punya Papa.",
+   "est": 1.8,
+   "start": 115.7,
+   "end": 117.5,
+   "shot": "s37"
+  },
+  {
+   "id": "L22",
+   "who": "NANDO",
+   "kind": "dialog",
+   "text": "Pasir?",
+   "est": 0.9,
+   "start": 124.9,
+   "end": 125.8,
+   "shot": "s40"
+  },
+  {
+   "id": "L23",
+   "who": "NANDO",
+   "kind": "dialog",
+   "text": "Siapa yang masuk ke rumah ini?",
+   "est": 1.9,
+   "start": 126.7,
+   "end": 128.6,
+   "shot": "s41"
+  },
+  {
+   "id": "L24",
+   "who": "NANDO",
+   "kind": "narasi",
+   "text": "Gue nggak ngerti.",
+   "est": 1.2,
+   "start": 129.1,
+   "end": 130.3,
+   "shot": "s42"
+  },
+  {
+   "id": "L25",
+   "who": "NANDO",
+   "kind": "narasi",
+   "text": "Kenapa rumah gue berantakan?",
+   "est": 1.7,
+   "start": 130.55,
+   "end": 132.25,
+   "shot": "s42"
+  },
+  {
+   "id": "L26",
+   "who": "NANDO",
+   "kind": "narasi",
+   "text": "Kenapa Papa nggak ada?",
+   "est": 1.5,
+   "start": 132.45,
+   "end": 133.95,
+   "shot": "s42"
+  },
+  {
+   "id": "L27",
+   "who": "NANDO",
+   "kind": "narasi",
+   "text": "Dan yang paling aneh…",
+   "est": 1.6,
+   "start": 134.4,
+   "end": 136,
+   "shot": "s43"
+  },
+  {
+   "id": "L28",
+   "who": "NANDO",
+   "kind": "narasi",
+   "text": "Kenapa ada pasir sebanyak ini?",
+   "est": 2,
+   "start": 136.4,
+   "end": 138.4,
+   "shot": "s43"
+  },
+  {
+   "id": "L29",
+   "who": "NANDO",
+   "kind": "dialog",
+   "text": "Siapa yang ngirim ini?!",
+   "est": 1.4,
+   "start": 148.6,
+   "end": 150,
+   "shot": "s48"
+  },
+  {
+   "id": "L30",
+   "who": "NANDO",
+   "kind": "dialog",
+   "text": "HEI! LO SIAPA?! PAPA GUE DI MANA?!",
+   "est": 2.4,
+   "start": 152.05,
+   "end": 154.45,
+   "shot": "s50"
+  },
+  {
+   "id": "L31",
+   "who": "MISTERIUS",
+   "kind": "phone",
+   "text": "Sepertinya kamu sudah menemukan petunjuknya.",
+   "est": 3,
+   "start": 156.4,
+   "end": 159.4,
+   "shot": "s51"
+  },
+  {
+   "id": "L32",
+   "who": "NANDO",
+   "kind": "dialog",
+   "text": "PETUNJUK APA?!",
+   "est": 1.1,
+   "start": 159.7,
+   "end": 160.8,
+   "shot": "s52"
+  },
+  {
+   "id": "L33",
+   "who": "MISTERIUS",
+   "kind": "phone",
+   "text": "Perhatikan pasirnya.",
+   "est": 1.6,
+   "start": 161.15,
+   "end": 162.75,
+   "shot": "s52"
+  },
+  {
+   "id": "L34",
+   "who": "NANDO",
+   "kind": "narasi",
+   "text": "Sejak saat itu, gue tahu…",
+   "est": 1.9,
+   "start": 178.2,
+   "end": 180.1,
+   "shot": "s58"
+  },
+  {
+   "id": "L35",
+   "who": "NANDO",
+   "kind": "narasi",
+   "text": "Ini bukan sekadar pencurian.",
+   "est": 1.9,
+   "start": 180.3,
+   "end": 182.2,
+   "shot": "s58"
+  },
+  {
+   "id": "L36",
+   "who": "NANDO",
+   "kind": "dialog",
+   "text": "Gue bakal temuin Papa. Siapa pun yang melakukan ini, bakal gue cari.",
+   "est": 4.3,
+   "start": 182.6,
+   "end": 186.9,
+   "shot": "s59"
+  }
+ ],
+ "sfx": [
+  {
+   "name": "logo_hit",
+   "t": 0.4,
+   "db": 0,
+   "shot": "s01"
+  },
+  {
+   "name": "golf_swing",
+   "t": 9.05,
+   "db": 0,
+   "shot": "s03"
+  },
+  {
+   "name": "golf_hit",
+   "t": 9.35,
+   "db": 0,
+   "shot": "s03"
+  },
+  {
+   "name": "ball_whoosh",
+   "t": 10.5,
+   "db": 0,
+   "shot": "s04"
+  },
+  {
+   "name": "notif",
+   "t": 14.7,
+   "db": 0,
+   "shot": "s06"
+  },
+  {
+   "name": "vibrate",
+   "t": 14.7,
+   "db": 0,
+   "shot": "s06"
+  },
+  {
+   "name": "cloth",
+   "t": 16.7,
+   "db": 0,
+   "shot": "s07"
+  },
+  {
+   "name": "pickup",
+   "t": 17.15,
+   "db": 0,
+   "shot": "s07"
+  },
+  {
+   "name": "alarm_alert",
+   "t": 18.85,
+   "db": 0,
+   "shot": "s08"
+  },
+  {
+   "name": "impact_low",
+   "t": 18.85,
+   "db": 0,
+   "shot": "s08"
+  },
+  {
+   "name": "riser",
+   "t": 20.7,
+   "db": 0,
+   "shot": "s09"
+  },
+  {
+   "name": "impact_boom",
+   "t": 24.7,
+   "db": 0,
+   "shot": "s10"
+  },
+  {
+   "name": "tap",
+   "t": 27.1,
+   "db": 0,
+   "shot": "s11"
+  },
+  {
+   "name": "ringback",
+   "t": 27.4,
+   "db": 0,
+   "shot": "s11"
+  },
+  {
+   "name": "call_end",
+   "t": 32.2,
+   "db": 0,
+   "shot": "s12"
+  },
+  {
+   "name": "tap",
+   "t": 32.7,
+   "db": 0,
+   "shot": "s13"
+  },
+  {
+   "name": "ringback",
+   "t": 32.9,
+   "db": 0,
+   "shot": "s13"
+  },
+  {
+   "name": "call_end",
+   "t": 37,
+   "db": 0,
+   "shot": "s15"
+  },
+  {
+   "name": "tap",
+   "t": 43.1,
+   "db": 0,
+   "shot": "s16"
+  },
+  {
+   "name": "ringback_short",
+   "t": 43.2,
+   "db": 0,
+   "shot": "s16"
+  },
+  {
+   "name": "call_end",
+   "t": 51,
+   "db": 0,
+   "shot": "s17"
+  },
+  {
+   "name": "keys",
+   "t": 51.2,
+   "db": 0,
+   "shot": "s17"
+  },
+  {
+   "name": "car_chirp",
+   "t": 51.6,
+   "db": 0,
+   "shot": "s17"
+  },
+  {
+   "name": "car_pass",
+   "t": 52.5,
+   "db": 0,
+   "shot": "s18"
+  },
+  {
+   "name": "ringback",
+   "t": 55.4,
+   "db": 0,
+   "shot": "s19"
+  },
+  {
+   "name": "ringtone",
+   "t": 60.05,
+   "db": 0,
+   "shot": "s21"
+  },
+  {
+   "name": "tap",
+   "t": 61.95,
+   "db": 0,
+   "shot": "s21"
+  },
+  {
+   "name": "call_end",
+   "t": 74.45,
+   "db": 0,
+   "shot": "s23"
+  },
+  {
+   "name": "car_brake",
+   "t": 83.6,
+   "db": 0,
+   "shot": "s26"
+  },
+  {
+   "name": "engine_off",
+   "t": 84.7,
+   "db": 0,
+   "shot": "s26"
+  },
+  {
+   "name": "car_door_open",
+   "t": 85.1,
+   "db": 0,
+   "shot": "s26"
+  },
+  {
+   "name": "car_door_close",
+   "t": 86.3,
+   "db": 0,
+   "shot": "s26"
+  },
+  {
+   "name": "door_creak",
+   "t": 92.45,
+   "db": 0,
+   "shot": "s29"
+  },
+  {
+   "name": "impact_low",
+   "t": 96.2,
+   "db": 0,
+   "shot": "s30"
+  },
+  {
+   "name": "door_open_soft",
+   "t": 101.7,
+   "db": 0,
+   "shot": "s32"
+  },
+  {
+   "name": "glint",
+   "t": 111.3,
+   "db": 0,
+   "shot": "s35"
+  },
+  {
+   "name": "cloth",
+   "t": 112.6,
+   "db": 0,
+   "shot": "s36"
+  },
+  {
+   "name": "ring_pick",
+   "t": 114.2,
+   "db": 0,
+   "shot": "s36"
+  },
+  {
+   "name": "sting",
+   "t": 115.1,
+   "db": 0,
+   "shot": "s37"
+  },
+  {
+   "name": "impact_low",
+   "t": 121.1,
+   "db": 0,
+   "shot": "s39"
+  },
+  {
+   "name": "sand_pour",
+   "t": 123.5,
+   "db": 0,
+   "shot": "s40"
+  },
+  {
+   "name": "riser",
+   "t": 136.1,
+   "db": 0,
+   "shot": "s43"
+  },
+  {
+   "name": "vibrate",
+   "t": 138.95,
+   "db": 0,
+   "shot": "s44"
+  },
+  {
+   "name": "msg",
+   "t": 139,
+   "db": 0,
+   "shot": "s44"
+  },
+  {
+   "name": "impact_low",
+   "t": 141.4,
+   "db": 0,
+   "shot": "s45"
+  },
+  {
+   "name": "tap",
+   "t": 143.25,
+   "db": 0,
+   "shot": "s46"
+  },
+  {
+   "name": "sit_tone",
+   "t": 143.65,
+   "db": 0,
+   "shot": "s46"
+  },
+  {
+   "name": "vibrate",
+   "t": 146,
+   "db": 0,
+   "shot": "s47"
+  },
+  {
+   "name": "msg",
+   "t": 146.05,
+   "db": 0,
+   "shot": "s47"
+  },
+  {
+   "name": "ringtone",
+   "t": 150.35,
+   "db": 0,
+   "shot": "s49"
+  },
+  {
+   "name": "vibrate",
+   "t": 150.35,
+   "db": 0,
+   "shot": "s49"
+  },
+  {
+   "name": "tap",
+   "t": 151.85,
+   "db": 0,
+   "shot": "s50"
+  },
+  {
+   "name": "sand_pour",
+   "t": 156.2,
+   "db": 0,
+   "shot": "s51"
+  },
+  {
+   "name": "drone_dark",
+   "t": 156.2,
+   "db": 0,
+   "shot": "s51"
+  },
+  {
+   "name": "call_drop",
+   "t": 162.9,
+   "db": 0,
+   "shot": "s52"
+  },
+  {
+   "name": "impact_boom",
+   "t": 166.7,
+   "db": 0,
+   "shot": "s54"
+  },
+  {
+   "name": "sting",
+   "t": 166.7,
+   "db": 0,
+   "shot": "s54"
+  },
+  {
+   "name": "shutter",
+   "t": 170.7,
+   "db": 0,
+   "shot": "s55"
+  },
+  {
+   "name": "msg",
+   "t": 172.1,
+   "db": 0,
+   "shot": "s56"
+  },
+  {
+   "name": "vibrate",
+   "t": 172.1,
+   "db": 0,
+   "shot": "s56"
+  },
+  {
+   "name": "riser",
+   "t": 174.3,
+   "db": 0,
+   "shot": "s57"
+  },
+  {
+   "name": "impact_boom",
+   "t": 176.9,
+   "db": 0,
+   "shot": "s57"
+  },
+  {
+   "name": "house_alarm",
+   "t": 187.5,
+   "db": 0,
+   "shot": "s60"
+  },
+  {
+   "name": "title_hit",
+   "t": 189.4,
+   "db": 0,
+   "shot": "s61"
+  }
+ ],
+ "lines": {
+  "L01": {
+   "who": "NANDO",
+   "kind": "dialog",
+   "text": "Hah? Rumah?",
+   "est": 1.1
+  },
+  "L02": {
+   "who": "NANDO",
+   "kind": "narasi",
+   "text": "Awalnya gue pikir itu cuma kesalahan sistem.",
+   "est": 3
+  },
+  "L03": {
+   "who": "NANDO",
+   "kind": "narasi",
+   "text": "Tapi gue nggak tahu… kalau hari itu bakal jadi hari yang paling gue sesali.",
+   "est": 4.8
+  },
+  "L04": {
+   "who": "NANDO",
+   "kind": "dialog",
+   "text": "Angkat, Pa…",
+   "est": 1.3
+  },
+  "L05": {
+   "who": "NANDO",
+   "kind": "narasi",
+   "text": "Papa bukan orang yang suka mengabaikan telepon. Apalagi kalau gue menelepon berkali-kali.",
+   "est": 5.6
+  },
+  "L06": {
+   "who": "NANDO",
+   "kind": "dialog",
+   "text": "Pak, bisa tolong cek rumah saya? Alarmnya tiba-tiba aktif.",
+   "est": 3.6
+  },
+  "L07": {
+   "who": "SATPAM",
+   "kind": "phone",
+   "text": "Baik, Pak. Saya coba periksa.",
+   "est": 1.9
+  },
+  "L08": {
+   "who": "NANDO",
+   "kind": "dialog",
+   "text": "Tolong kabari saya secepatnya.",
+   "est": 1.8
+  },
+  "L09": {
+   "who": "NANDO",
+   "kind": "dialog",
+   "text": "Halo? Gimana rumah saya?",
+   "est": 1.6
+  },
+  "L10": {
+   "who": "SATPAM",
+   "kind": "phone",
+   "text": "Maaf, Pak. Saya belum berhasil menghubungi orang di rumah.",
+   "est": 3.4
+  },
+  "L11": {
+   "who": "NANDO",
+   "kind": "dialog",
+   "text": "Terus sekarang gimana?",
+   "est": 1.3
+  },
+  "L12": {
+   "who": "SATPAM",
+   "kind": "phone",
+   "text": "Saya sarankan Bapak segera pulang dan memeriksanya.",
+   "est": 2.9
+  },
+  "L13": {
+   "who": "NANDO",
+   "kind": "dialog",
+   "text": "Iya. Saya sudah menuju ke sana.",
+   "est": 1.9
+  },
+  "L14": {
+   "who": "NANDO",
+   "kind": "narasi",
+   "text": "Gue mulai berpikir macam-macam.",
+   "est": 2
+  },
+  "L15": {
+   "who": "NANDO",
+   "kind": "narasi",
+   "text": "Tapi satu hal yang terus ada di kepala gue…",
+   "est": 2.6
+  },
+  "L16": {
+   "who": "NANDO",
+   "kind": "narasi",
+   "text": "Papa ada di rumah. Setidaknya, seharusnya begitu.",
+   "est": 3.4
+  },
+  "L17": {
+   "who": "NANDO",
+   "kind": "dialog",
+   "text": "Papa?",
+   "est": 0.8
+  },
+  "L18": {
+   "who": "NANDO",
+   "kind": "dialog",
+   "text": "Papa!?",
+   "est": 1
+  },
+  "L19": {
+   "who": "NANDO",
+   "kind": "narasi",
+   "text": "Gue udah periksa hampir seluruh rumah.",
+   "est": 2.4
+  },
+  "L20": {
+   "who": "NANDO",
+   "kind": "narasi",
+   "text": "Tapi Papa nggak ada.",
+   "est": 1.6
+  },
+  "L21": {
+   "who": "NANDO",
+   "kind": "dialog",
+   "text": "Ini… punya Papa.",
+   "est": 1.8
+  },
+  "L22": {
+   "who": "NANDO",
+   "kind": "dialog",
+   "text": "Pasir?",
+   "est": 0.9
+  },
+  "L23": {
+   "who": "NANDO",
+   "kind": "dialog",
+   "text": "Siapa yang masuk ke rumah ini?",
+   "est": 1.9
+  },
+  "L24": {
+   "who": "NANDO",
+   "kind": "narasi",
+   "text": "Gue nggak ngerti.",
+   "est": 1.2
+  },
+  "L25": {
+   "who": "NANDO",
+   "kind": "narasi",
+   "text": "Kenapa rumah gue berantakan?",
+   "est": 1.7
+  },
+  "L26": {
+   "who": "NANDO",
+   "kind": "narasi",
+   "text": "Kenapa Papa nggak ada?",
+   "est": 1.5
+  },
+  "L27": {
+   "who": "NANDO",
+   "kind": "narasi",
+   "text": "Dan yang paling aneh…",
+   "est": 1.6
+  },
+  "L28": {
+   "who": "NANDO",
+   "kind": "narasi",
+   "text": "Kenapa ada pasir sebanyak ini?",
+   "est": 2
+  },
+  "L29": {
+   "who": "NANDO",
+   "kind": "dialog",
+   "text": "Siapa yang ngirim ini?!",
+   "est": 1.4
+  },
+  "L30": {
+   "who": "NANDO",
+   "kind": "dialog",
+   "text": "HEI! LO SIAPA?! PAPA GUE DI MANA?!",
+   "est": 2.4
+  },
+  "L31": {
+   "who": "MISTERIUS",
+   "kind": "phone",
+   "text": "Sepertinya kamu sudah menemukan petunjuknya.",
+   "est": 3
+  },
+  "L32": {
+   "who": "NANDO",
+   "kind": "dialog",
+   "text": "PETUNJUK APA?!",
+   "est": 1.1
+  },
+  "L33": {
+   "who": "MISTERIUS",
+   "kind": "phone",
+   "text": "Perhatikan pasirnya.",
+   "est": 1.6
+  },
+  "L34": {
+   "who": "NANDO",
+   "kind": "narasi",
+   "text": "Sejak saat itu, gue tahu…",
+   "est": 1.9
+  },
+  "L35": {
+   "who": "NANDO",
+   "kind": "narasi",
+   "text": "Ini bukan sekadar pencurian.",
+   "est": 1.9
+  },
+  "L36": {
+   "who": "NANDO",
+   "kind": "dialog",
+   "text": "Gue bakal temuin Papa. Siapa pun yang melakukan ini, bakal gue cari.",
+   "est": 4.3
+  }
+ },
+ "scenes": {
+  "1": "HARI YANG BIASA",
+  "2": "TIDAK ADA JAWABAN",
+  "3": "PERJALANAN PULANG",
+  "4": "PINTU YANG TERBUKA",
+  "5": "SESUATU DI LANTAI",
+  "6": "PESAN DARI ORANG ASING",
+  "7": "CLIFFHANGER"
+ }
+}

@@ -1,0 +1,25 @@
+<!doctype html><html><body style="margin:0;background:#000">
+<script type="importmap">{"imports":{"three":"/node_modules/three/build/three.module.js","three/addons/":"/node_modules/three/examples/jsm/"}}</script>
+<script type="module">
+import * as THREE from 'three';
+import {Engine} from '/src/engine.js';
+import {makeNando, makePapa} from '/src/characters.js';
+import {initBrand} from '/src/textures.js';
+await initBrand();
+const E=new Engine(); const s=new THREE.Scene(); s.background=new THREE.Color(0x232833);
+s.add(new THREE.HemisphereLight(0xc8d0e0,0x3a3025,1.4)); const d=new THREE.DirectionalLight(0xfff2e0,2.5); d.position.set(3,6,5); d.castShadow=true; d.shadow.mapSize.set(2048,2048); d.shadow.camera.left=-3;d.shadow.camera.right=3;d.shadow.camera.top=3;d.shadow.camera.bottom=-3; d.shadow.bias=-0.0005; s.add(d);
+const fl=new THREE.Mesh(new THREE.CircleGeometry(4,48),new THREE.MeshStandardMaterial({color:0xc9a874,roughness:.9})); fl.rotation.x=-Math.PI/2; fl.receiveShadow=true; s.add(fl);
+const n=makeNando(), p=makePapa(); s.add(n.root,p.root);
+const cam=new THREE.PerspectiveCamera(30,16/9,0.1,100);
+window.shot=(k)=>{
+  n.pose=n.constructor.defaultPose(); p.pose=p.constructor.defaultPose();
+  n.pose.x=-0.6; p.pose.x=0.6;
+  if(k==1){ n.pose.rotY=0.6; p.pose.rotY=-0.6; n.pose.hand.R=new THREE.Vector3(-0.22,0.62,0.12); n.pose.headYaw=-0.2; n.pose.smile=1; p.pose.mouthOpen=0.6; n.pose.look=[0.5,0];}
+  if(k==2){ n.pose.rotY=Math.PI; p.pose.rotY=Math.PI/2; }
+  n.update(); p.update();
+  cam.position.set(0,1.3,k==3?1.8:5.2); cam.lookAt(0,1.0,0); if(k==3){cam.position.set(-0.6,1.45,1.3); cam.lookAt(-0.6,1.42,0);}
+  E.render(s,cam,{focus:k==3?1.3:5.2,aperture:0.015,time:k});
+  return E.renderer.domElement.toDataURL('image/jpeg',0.9);
+};
+window.READY=true;
+</script></body></html>

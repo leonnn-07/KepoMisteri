@@ -1,0 +1,7 @@
+node_modules/
+pasir-ep01/node_modules/
+pasir-ep01/output/parts/
+pasir-ep01/output/logs/
+pasir-ep01/output/audio/*.wav
+pasir-ep01/output/video_nosub.mp4
+pasir-ep01/output/render_all.log

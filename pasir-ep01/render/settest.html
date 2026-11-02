@@ -1,0 +1,20 @@
+<!doctype html><html><body style="margin:0;background:#000">
+<script type="importmap">{"imports":{"three":"/node_modules/three/build/three.module.js","three/addons/":"/node_modules/three/examples/jsm/"}}</script>
+<script type="module">
+import * as THREE from 'three';
+import {Engine} from '/src/engine.js';
+import {makeNando} from '/src/characters.js';
+import {initBrand} from '/src/textures.js';
+try{
+await initBrand();
+const q=new URLSearchParams(location.search); const name=q.get('set');
+const mod=await import(`/src/set_${name}.js`); const set=mod['build'+name[0].toUpperCase()+name.slice(1)]();
+const E=new Engine(); E.setGrade(set.grade); const n=makeNando(); set.scene.add(n.root);
+const cam=new THREE.PerspectiveCamera(35,16/9,0.05,1500);
+window.shot=(k)=>{ const c=JSON.parse(decodeURIComponent(q.get('c'+k)));
+  n.pose=n.constructor.defaultPose(); Object.assign(n.pose,c.pose||{}); n.update();
+  cam.fov=c.fov||35; cam.updateProjectionMatrix(); cam.position.set(...c.p); cam.lookAt(...c.t); set.update(3);
+  if(set.sun&&c.sunT){set.sun.target.position.set(...c.sunT); set.sun.position.set(c.sunT[0]-30,60,c.sunT[2]+25);}
+  E.render(set.scene,cam,{focus:c.f||5,aperture:c.a||0.01,time:k}); return E.renderer.domElement.toDataURL('image/jpeg',0.9);};
+window.READY=true;}catch(e){console.log('FAIL',e.stack);window.FAIL=true;}
+</script></body></html>

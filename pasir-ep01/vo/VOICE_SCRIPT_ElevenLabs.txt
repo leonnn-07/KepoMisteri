@@ -1,0 +1,222 @@
+PASIR — EPISODE 01: ALARM
+NASKAH VOICE-OVER UNTUK ELEVENLABS (paket gratis)
+=====================================================================
+
+Total: 36 baris, 1151 karakter (paket gratis ElevenLabs = 10.000 kredit/bulan,
+1 karakter ≈ 1 kredit → cukup, masih sisa untuk take ulang).
+
+PENGATURAN UMUM
+- Model: "Eleven Multilingual v2" (paling stabil untuk Bahasa Indonesia).
+  Alternatif: "Eleven v3" — lebih ekspresif & bisa pakai tag seperti [whispers], [shouting], [sighs].
+- Output: MP3 44.1 kHz (default) sudah cukup.
+- Simpan setiap baris sebagai file terpisah dengan NAMA PERSIS seperti kolom "FILE"
+  (contoh L01.mp3) ke folder:  pasir-ep01/vo/
+- Jangan tambahkan musik/efek di ElevenLabs — semua efek (suara telepon, gema ruangan)
+  diproses otomatis oleh tools/mix_vo.py.
+- Usahakan durasi tiap take mendekati "TARGET". Kalau jauh lebih panjang, naikkan Speed
+  sedikit (1.05–1.1) atau generate ulang.
+
+PEMILIHAN SUARA (3 orang)
+1) NANDO  — pria dewasa, natural, tegas, sedikit berat. Dipakai untuk DIALOG dan NARASI.
+   • Cari di Voice Library: filter Language = Indonesian, Gender = Male, Age = Middle aged /
+     Young, Use case = Narrative / Conversational. Pilih yang suaranya berat & tidak "iklan".
+   • Kalau tidak menemukan, pakai voice bawaan "Brian" (deep) atau "Liam" dengan Multilingual v2.
+   • Setting DIALOG : Stability 35–45%, Similarity 75%, Style 20–30%, Speaker boost ON.
+   • Setting NARASI : Stability 55–65%, Similarity 75%, Style 0–10% (lebih datar, intim, dekat mic).
+     → Narasi dan dialog memakai SUARA YANG SAMA, hanya beda setting & cara bicara.
+2) SATPAM (Pos Satpam Komplek, suara telepon) — pria 40–50an, sopan, sigap.
+   • Voice Library Indonesian male yang berbeda dari Nando, atau voice bawaan "Bill"/"George".
+   • Stability 50%, Style 10%. Efek "suara telepon" ditambahkan otomatis.
+3) SOSOK MISTERIUS (suara telepon) — pria, tenang, dingin, pelan, identitas tidak terungkap.
+   • Voice bawaan "Callum" (husky) atau Voice Library male yang paling dalam & tenang.
+   • Stability 70–80%, Style 0%, Speed 0.9. Pitch akan diturunkan & diberi gema otomatis.
+
+CATATAN LISENSI: paket gratis ElevenLabs mewajibkan atribusi ("Voice by ElevenLabs" / elevenlabs.io)
+dan tidak memberi lisensi komersial. Kalau video dimonetisasi, gunakan paket berbayar.
+
+CARA MEMASUKKAN VO KE VIDEO
+  cd pasir-ep01
+  python3 tools/mix_vo.py         → membuat output/final_video_vo.mp4 (VO + musik di-ducking + SFX + subtitle)
+  (atau impor manual ke CapCut/Premiere: taruh tiap file pada TIMECODE di bawah)
+
+=====================================================================
+
+[L01]  FILE: L01.mp3   TIMECODE: 00:17.40   TARGET: ±1.1 detik
+SUARA : NANDO — DIALOG
+EMOSI : kaget kecil, bingung, setengah bergumam
+TEKS  : Hah? Rumah?
+
+[L02]  FILE: L02.mp3   TIMECODE: 00:19.00   TARGET: ±3.0 detik
+SUARA : NANDO — NARASI (voice-over batin)
+EMOSI : narasi tenang, mengenang, agak berat
+TEKS  : Awalnya gue pikir itu cuma kesalahan sistem.
+
+[L03]  FILE: L03.mp3   TIMECODE: 00:22.15   TARGET: ±4.8 detik
+SUARA : NANDO — NARASI (voice-over batin)
+EMOSI : narasi pelan, penuh penyesalan; jeda di "…"
+TEKS  : Tapi gue nggak tahu… kalau hari itu bakal jadi hari yang paling gue sesali.
+
+[L04]  FILE: L04.mp3   TIMECODE: 00:35.10   TARGET: ±1.3 detik
+SUARA : NANDO — DIALOG
+EMOSI : cemas, berbisik ke diri sendiri
+TEKS  : Angkat, Pa…
+
+[L05]  FILE: L05.mp3   TIMECODE: 00:37.10   TARGET: ±5.6 detik
+SUARA : NANDO — NARASI (voice-over batin)
+EMOSI : narasi, khawatir tapi terkontrol
+TEKS  : Papa bukan orang yang suka mengabaikan telepon. Apalagi kalau gue menelepon berkali-kali.
+
+[L06]  FILE: L06.mp3   TIMECODE: 00:43.50   TARGET: ±3.6 detik
+SUARA : NANDO — DIALOG
+EMOSI : sopan tapi mendesak
+TEKS  : Pak, bisa tolong cek rumah saya? Alarmnya tiba-tiba aktif.
+
+[L07]  FILE: L07.mp3   TIMECODE: 00:47.20   TARGET: ±1.9 detik
+SUARA : SATPAM (via telepon)
+EMOSI : satpam, sigap, logat Betawi/Bekasi ringan
+TEKS  : Baik, Pak. Saya coba periksa.
+
+[L08]  FILE: L08.mp3   TIMECODE: 00:49.20   TARGET: ±1.8 detik
+SUARA : NANDO — DIALOG
+EMOSI : tegas, buru-buru
+TEKS  : Tolong kabari saya secepatnya.
+
+[L09]  FILE: L09.mp3   TIMECODE: 01:02.35   TARGET: ±1.6 detik
+SUARA : NANDO — DIALOG
+EMOSI : langsung, cemas
+TEKS  : Halo? Gimana rumah saya?
+
+[L10]  FILE: L10.mp3   TIMECODE: 01:04.15   TARGET: ±3.4 detik
+SUARA : SATPAM (via telepon)
+EMOSI : satpam, tidak enak hati
+TEKS  : Maaf, Pak. Saya belum berhasil menghubungi orang di rumah.
+
+[L11]  FILE: L11.mp3   TIMECODE: 01:07.70   TARGET: ±1.3 detik
+SUARA : NANDO — DIALOG
+EMOSI : mulai frustrasi
+TEKS  : Terus sekarang gimana?
+
+[L12]  FILE: L12.mp3   TIMECODE: 01:09.60   TARGET: ±2.9 detik
+SUARA : SATPAM (via telepon)
+EMOSI : satpam, serius
+TEKS  : Saya sarankan Bapak segera pulang dan memeriksanya.
+
+[L13]  FILE: L13.mp3   TIMECODE: 01:12.60   TARGET: ±1.9 detik
+SUARA : NANDO — DIALOG
+EMOSI : tegas, menahan panik
+TEKS  : Iya. Saya sudah menuju ke sana.
+
+[L14]  FILE: L14.mp3   TIMECODE: 01:14.70   TARGET: ±2.0 detik
+SUARA : NANDO — NARASI (voice-over batin)
+EMOSI : narasi, gelisah
+TEKS  : Gue mulai berpikir macam-macam.
+
+[L15]  FILE: L15.mp3   TIMECODE: 01:16.80   TARGET: ±2.6 detik
+SUARA : NANDO — NARASI (voice-over batin)
+EMOSI : narasi, menggantung; jeda di "…"
+TEKS  : Tapi satu hal yang terus ada di kepala gue…
+
+[L16]  FILE: L16.mp3   TIMECODE: 01:19.50   TARGET: ±3.4 detik
+SUARA : NANDO — NARASI (voice-over batin)
+EMOSI : narasi, ragu, suara merendah di "seharusnya begitu"
+TEKS  : Papa ada di rumah. Setidaknya, seharusnya begitu.
+
+[L17]  FILE: L17.mp3   TIMECODE: 01:31.00   TARGET: ±0.8 detik
+SUARA : NANDO — DIALOG
+EMOSI : memanggil pelan, ragu
+TEKS  : Papa?
+
+[L18]  FILE: L18.mp3   TIMECODE: 01:39.20   TARGET: ±1.0 detik
+SUARA : NANDO — DIALOG
+EMOSI : berteriak memanggil, panik
+TEKS  : Papa!?
+
+[L19]  FILE: L19.mp3   TIMECODE: 01:44.10   TARGET: ±2.4 detik
+SUARA : NANDO — NARASI (voice-over batin)
+EMOSI : narasi, lelah, napas berat
+TEKS  : Gue udah periksa hampir seluruh rumah.
+
+[L20]  FILE: L20.mp3   TIMECODE: 01:47.10   TARGET: ±1.6 detik
+SUARA : NANDO — NARASI (voice-over batin)
+EMOSI : narasi, hampa
+TEKS  : Tapi Papa nggak ada.
+
+[L21]  FILE: L21.mp3   TIMECODE: 01:55.70   TARGET: ±1.8 detik
+SUARA : NANDO — DIALOG
+EMOSI : lirih, tercekat; jeda di "…"
+TEKS  : Ini… punya Papa.
+
+[L22]  FILE: L22.mp3   TIMECODE: 02:04.90   TARGET: ±0.9 detik
+SUARA : NANDO — DIALOG
+EMOSI : heran, pelan
+TEKS  : Pasir?
+
+[L23]  FILE: L23.mp3   TIMECODE: 02:06.70   TARGET: ±1.9 detik
+SUARA : NANDO — DIALOG
+EMOSI : marah tertahan, curiga
+TEKS  : Siapa yang masuk ke rumah ini?
+
+[L24]  FILE: L24.mp3   TIMECODE: 02:09.10   TARGET: ±1.2 detik
+SUARA : NANDO — NARASI (voice-over batin)
+EMOSI : narasi, bingung
+TEKS  : Gue nggak ngerti.
+
+[L25]  FILE: L25.mp3   TIMECODE: 02:10.55   TARGET: ±1.7 detik
+SUARA : NANDO — NARASI (voice-over batin)
+EMOSI : narasi
+TEKS  : Kenapa rumah gue berantakan?
+
+[L26]  FILE: L26.mp3   TIMECODE: 02:12.45   TARGET: ±1.5 detik
+SUARA : NANDO — NARASI (voice-over batin)
+EMOSI : narasi, suara sedikit pecah
+TEKS  : Kenapa Papa nggak ada?
+
+[L27]  FILE: L27.mp3   TIMECODE: 02:14.40   TARGET: ±1.6 detik
+SUARA : NANDO — NARASI (voice-over batin)
+EMOSI : narasi, merendah; jeda di "…"
+TEKS  : Dan yang paling aneh…
+
+[L28]  FILE: L28.mp3   TIMECODE: 02:16.40   TARGET: ±2.0 detik
+SUARA : NANDO — NARASI (voice-over batin)
+EMOSI : narasi, misterius
+TEKS  : Kenapa ada pasir sebanyak ini?
+
+[L29]  FILE: L29.mp3   TIMECODE: 02:28.60   TARGET: ±1.4 detik
+SUARA : NANDO — DIALOG
+EMOSI : marah
+TEKS  : Siapa yang ngirim ini?!
+
+[L30]  FILE: L30.mp3   TIMECODE: 02:32.05   TARGET: ±2.4 detik
+SUARA : NANDO — DIALOG
+EMOSI : BERTERIAK, marah & panik
+TEKS  : HEI! LO SIAPA?! PAPA GUE DI MANA?!
+
+[L31]  FILE: L31.mp3   TIMECODE: 02:36.40   TARGET: ±3.0 detik
+SUARA : SOSOK MISTERIUS (via telepon)
+EMOSI : MISTERIUS: tenang, dingin, pelan, sedikit tersenyum
+TEKS  : Sepertinya kamu sudah menemukan petunjuknya.
+
+[L32]  FILE: L32.mp3   TIMECODE: 02:39.70   TARGET: ±1.1 detik
+SUARA : NANDO — DIALOG
+EMOSI : berteriak
+TEKS  : PETUNJUK APA?!
+
+[L33]  FILE: L33.mp3   TIMECODE: 02:41.15   TARGET: ±1.6 detik
+SUARA : SOSOK MISTERIUS (via telepon)
+EMOSI : MISTERIUS: berbisik dingin, lambat
+TEKS  : Perhatikan pasirnya.
+
+[L34]  FILE: L34.mp3   TIMECODE: 02:58.20   TARGET: ±1.9 detik
+SUARA : NANDO — NARASI (voice-over batin)
+EMOSI : narasi, pelan, sadar akan sesuatu
+TEKS  : Sejak saat itu, gue tahu…
+
+[L35]  FILE: L35.mp3   TIMECODE: 03:00.30   TARGET: ±1.9 detik
+SUARA : NANDO — NARASI (voice-over batin)
+EMOSI : narasi, dingin, tegas
+TEKS  : Ini bukan sekadar pencurian.
+
+[L36]  FILE: L36.mp3   TIMECODE: 03:02.60   TARGET: ±4.3 detik
+SUARA : NANDO — DIALOG
+EMOSI : tekad bulat, rendah, menahan amarah — bukan teriak
+TEKS  : Gue bakal temuin Papa. Siapa pun yang melakukan ini, bakal gue cari.

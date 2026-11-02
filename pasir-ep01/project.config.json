@@ -1,0 +1,21 @@
+{
+  "title": "PASIR — Episode 01: ALARM",
+  "brand": "KepoMisteri",
+  "language": "id-ID",
+  "output": { "file": "final_video.mp4", "width": 1920, "height": 1080, "aspect": "16:9", "fps": 30, "duration_s": 195.0,
+              "video_codec": "H.264 (libx264, CRF 17, yuv420p)", "audio_codec": "AAC 256 kbps 48 kHz stereo", "letterbox": "2.2:1 cinematic bars (subtitles sit in the lower bar)" },
+  "characters": {
+    "NANDO": "Protagonis (dulu 'Onel'). Pria Batak, kulit sawo matang, rambut hitam pendek (potongan mangkok), jas navy, kemeja putih, dasi merah. Desain mengikuti character turnaround PASIR.",
+    "PAPA": "Pria Batak ±60 th, badan besar, rambut beruban, kumis tebal, kemeja batik coklat motif cincin, ulos merah-putih-hitam, cincin batu akik, jam tangan klasik. Muncul di foto keluarga & avatar kontak.",
+    "SOSOK MISTERIUS": "Hanya suara lewat telepon. Wajah & identitas tidak ditampilkan."
+  },
+  "pipeline": {
+    "visual": "Three.js 0.169 (WebGL2) di Chromium headless (SwiftShader, CPU) — rig karakter IK prosedural, set 3D prosedural, bayangan PCF lembut, MSAA 4x HDR",
+    "post": "shader sendiri: depth-of-field 16-tap, ACES tonemap, lift/gamma/gain grade per set, vignette, grain film, chromatic aberration, letterbox",
+    "audio": "numpy — semua SFX, ambience, dan skor musik disintesis (tanpa sampel eksternal)",
+    "voice": "ElevenLabs (gratis) oleh pengguna → tools/mix_vo.py",
+    "encode": "ffmpeg 6 + libass (subtitle burn-in)"
+  },
+  "sets": ["Lapangan golf (Tambun)", "Jalan raya Tambun, Bekasi (ruko, billboard)", "Rumah keluarga Nando (eksterior + interior berantakan)", "Basement mal (foto & sekuens suara)"],
+  "branding": ["Billboard KepoMisteri (golf + 4x jalan raya)", "Roll-up banner & feather flag di tee box", "Papan pagar lapangan", "Spanduk melintang jalan (3x)", "Banner tiang listrik", "Ruko KepoMisteri", "Poster di tiang lampu depan rumah", "Wallpaper ponsel", "Bumper logo pembuka & kartu judul penutup"]
+}
